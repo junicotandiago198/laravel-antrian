@@ -15,4 +15,13 @@ class AntrianController extends Controller
         $data['antri'] = '-';
         return view('antrian',$data);
     }
+
+    public function antri_cs($cs,$teller1,$teller2)
+    {
+        $data['antrian_cs'] = $cs+1;
+        $data['antrian_teller1'] = $teller1;
+        $data['antrian_teller2'] = $teller2;
+        $data['antri'] = "cs";
+        return view('antrian', $data);
+    }
 }
