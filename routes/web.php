@@ -13,6 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('antrian');
-});
+Route::get('/', [App\Http\Controllers\AntrianController::class, 'index']);

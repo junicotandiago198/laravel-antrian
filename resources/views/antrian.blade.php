@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Dot</title>
+	<title>Bank Mandiri</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   <!-- theme meta -->
@@ -26,7 +26,7 @@
 <body>
 	<!-- header -->
 	<header class="banner overlay bg-cover" data-background="/dot_template/images/banner.jpg">
-		<nav class="navbar navbar-expand-md navbar-dark">
+		{{-- <nav class="navbar navbar-expand-md navbar-dark">
 			<div class="container">
 				<a class="navbar-brand px-2" href="index.html">Dot</a>
 				<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
@@ -51,17 +51,17 @@
 					</ul>
 				</div>
 			</div>
-		</nav>
+		</nav> --}}
 		<!-- banner -->
 		<div class="container section">
 			<div class="row">
 				<div class="col-lg-8 text-center mx-auto">
-					<h1 class="text-white mb-3">Support Center &amp; Knowledge base</h1>
-					<p class="text-white mb-4">Find advice and answers from our support team fast or get in touch</p>
-					<div class="position-relative">
+					<h1 class="text-white mb-3">BANK MANDIRI</h1>
+					<p class="text-white mb-4">Terdepan, Terpercaya, Tumbuh Bersama Anda</p>
+					{{-- <div class="position-relative">
 						<input id="search" class="form-control" placeholder="Have a question? Just ask here or enter terms"><i
 							class="ti-search search-icon"></i>
-					</div>
+					</div> --}}
 				</div>
 			</div>
 		</div>
@@ -74,28 +74,28 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-12 text-center">
-					<h2 class="section-title">Find your answer by subject</h2>
+					<h2 class="section-title">Daftar Antrian</h2>
 				</div>
 				<!-- topic-item -->
 				<div class="col-lg-4 col-sm-6 mb-4">
-					<a href="single.html" class="px-4 py-5 bg-white shadow text-center d-block match-height">
-						<i class="ti-panel icon text-primary d-block mb-4"></i>
-						<h3 class="mb-3 mt-0">Installation</h3>
-						<p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
-					</a>
-				</div>
-				<div class="col-lg-4 col-sm-6 mb-4">
-					<a href="single.html" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+					<a class="px-4 py-5 bg-white shadow text-center d-block match-height">
 						<i class="ti-credit-card icon text-primary d-block mb-4"></i>
-						<h3 class="mb-3 mt-0">Billing &amp; Pricing</h3>
-						<p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+						<h3 class="mb-3 mt-0">0</h3>
+						<p class="mb-0">Customer Service</p>
 					</a>
 				</div>
 				<div class="col-lg-4 col-sm-6 mb-4">
-					<a href="single.html" class="px-4 py-5 bg-white shadow text-center d-block match-height">
-						<i class="ti-package icon text-primary d-block mb-4"></i>
-						<h3 class="mb-3 mt-0">Features</h3>
-						<p class="mb-0">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet</p>
+					<a class="px-4 py-5 bg-white shadow text-center d-block match-height">
+						<i class="ti-credit-card icon text-primary d-block mb-4"></i>
+						<h3 class="mb-3 mt-0">0</h3>
+						<p class="mb-0">Teller 1</p>
+					</a>
+				</div>
+				<div class="col-lg-4 col-sm-6 mb-4">
+					<a class="px-4 py-5 bg-white shadow text-center d-block match-height">
+						<i class="ti-credit-card icon text-primary d-block mb-4"></i>
+						<h3 class="mb-3 mt-0">0</h3>
+						<p class="mb-0">Teller 2</p>
 					</a>
 				</div>
 			</div>
@@ -104,7 +104,7 @@
 	<!-- /topics -->
 
 	<!-- call to action -->
-	<section>
+	{{-- <section>
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -117,18 +117,18 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> --}}
 	<!-- /call to action -->
 
 	<!-- footer -->
 	<footer class="section pb-4">
 		<div class="container">
 			<div class="row align-items-center">
-				<div class="col-md-8 text-md-left text-center">
+				{{-- <div class="col-md-8 text-md-left text-center">
 					<p class="mb-md-0 mb-4">Copyright © 2020 Designed and Developed by <a
 							href="https://themefisher.com/">themefisher</a></p>
-				</div>
-				<div class="col-md-4 text-md-right text-center">
+				</div> --}}
+				{{-- <div class="col-md-4 text-md-right text-center">
 					<ul class="list-inline">
 						<li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i
 									class="ti-facebook"></i></a></li>
@@ -139,7 +139,7 @@
 						<li class="list-inline-item"><a class="text-color d-inline-block p-2" href="#"><i
 									class="ti-linkedin"></i></a></li>
 					</ul>
-				</div>
+				</div> --}}
 			</div>
 		</div>
 	</footer>
